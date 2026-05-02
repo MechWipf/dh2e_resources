@@ -1,0 +1,4 @@
+Recovered manifest with next_file=7 manifest_num=6 log_num=4 prev_log_num=0 last_seq=18
+reusing manifest "/home/wipf/.local/share/FoundryVTT/Data/modules/dh2e_resources/packs/Armor/basic/MANIFEST-000002"
+Recovering log file "/home/wipf/.local/share/FoundryVTT/Data/modules/dh2e_resources/packs/Armor/basic/000004.log"
+reusing log file "/home/wipf/.local/share/FoundryVTT/Data/modules/dh2e_resources/packs/Armor/basic/000004.log"
