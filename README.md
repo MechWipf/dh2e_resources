@@ -1,11 +1,9 @@
-This is a fork of https://github.com/Nosferaschu/dh2e_resources dedicated to add Foundry 9 and 11 compatibility and fix some errors.
-Thanks Nosferaschu for his work.
+This is a fork of https://github.com/Nosferaschu/dh2e_resources dedicated to add Foundry 13 compatibility and fix some errors.  
+Thanks Nosferaschu and Apex for their work.
 
 # Dark Heresy 2nd Edition resource pack
 To-Install use Link:
 https://github.com/MechWipf/dh2e_resources/raw/main/module.json
-
-We switched to foundry and i am kind of an perfectionist so i added over 750 entrys from 4 rulebooks and we created some for ourselfs =)<p>
 
 The entrys are all items so this is an Compendium archive.  
 The items are from the 4 books:  
@@ -14,9 +12,6 @@ The items are from the 4 books:
 - Enemies Within  
 - Enemies Without  
 
-This took me a lot of work and i just wanted to share it =)  
-Maybe someone will play it now, because he does not have to do it.  
-The Folders you see is how i implemented it in our game, you have to redo it yourself.
 ## What is included:
 ### Psychic Powers: 73 Powers in 8 trees
 ![psychicpower](https://user-images.githubusercontent.com/84198011/118661294-448ba000-b7ef-11eb-9108-bc531517112b.PNG)  
@@ -33,10 +28,10 @@ And Why are there so many types? because every weapon has its on clip with its o
 ![boltclip](https://user-images.githubusercontent.com/84198011/118663244-f4add880-b7f0-11eb-8bd4-e498dc115fcf.PNG)  
 Yes i did clips instead of ammunition because they make things easier.  
 First the player just needs to get clips for his weapon and that's it. The clip has a fixed weight value so no weight calculation and you can track used ammo.
-The Quantity is used to display the rounds in the clip so if a user reloads you can eddt the clip to the right amount of rounds in the not empty clip.
+The Quantity is used to display the rounds in the clip so if a user reloads you can edit the clip to the right amount of rounds in the not empty clip.
 If a clip is empty, just delete it, and if its a power cell for a lasgun, just empty it and you know you have an empty power cell you need to recharge.
 If a player has the clips with him just add 3 clips to his inventory.  
-The weight and availability is always the same: 10% weight of the gun and one step easyer to get. (Core Rulebook says so)<p>
+The weight and availability is always the same: 10% weight of the gun and one step easier to get. (Core Rulebook says so)  
 ![stuff](https://user-images.githubusercontent.com/84198011/118664797-0f348180-b7f2-11eb-9951-25d46e94b465.PNG)
 
 ### Cybernetics: 27

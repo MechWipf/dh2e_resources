@@ -7,345 +7,449 @@
     { "name": "Apex" },
     { "name": "MechWipf" }
   ],
-  "version": "0.8.2",
+  "version": "0.8.7",
   "manifest": "https://raw.githubusercontent.com/MechWipf/dh2e_resources/main/module.json",
   "download": "https://github.com/MechWipf/dh2e_resources/releases/latest/download/module.zip",
   "compatibility": {
-    "minimum": "0.8.6",
-    "verified": "12"
+    "minimum": "12",
+    "verified": "13"
   },
+  "packFolders": [
+    {
+      "name": "Dark Heresy 2nd Edition - Resources",
+      "sorting": "m",
+      "color": "#000000",
+      "packs": [
+        "aptitudes",
+        "cybernetics",
+        "drugs_and_consumables",
+        "forcefields",
+        "gear",
+        "tools",
+        "traits",
+        "modifications"
+      ],
+      "folders": [
+        {
+          "name": "Ammunition",
+          "sorting": "m",
+          "color": "#000000",
+          "packs": [
+            "ammunition_explosives",
+            "ammunition_special",
+            "ammunition_standard",
+            "ammunition_xeno"
+          ]
+        },
+        {
+          "name": "Armor",
+          "sorting": "m",
+          "color": "#000000",
+          "packs": [
+            "armor_basic",
+            "armor_carapace",
+            "armor_flak",
+            "armor_mesh",
+            "armor_power_armor"
+          ]
+        },
+        {
+          "name": "Meele Weapons",
+          "sorting": "m",
+          "color": "#000000",
+          "packs": [
+            "meeleweapons_chain",
+            "meeleweapons_flame",
+            "meeleweapons_force",
+            "meeleweapons_low-tech",
+            "meeleweapons_power",
+            "meeleweapons_shock",
+            "meeleweapons_xeno"
+          ]
+        },
+        {
+          "name": "Psychic Powers",
+          "sorting": "m",
+          "color": "#000000",
+          "packs": [
+            "psychicpowers_biomancy",
+            "psychicpowers_divination",
+            "psychicpowers_malefic",
+            "psychicpowers_minor",
+            "psychicpowers_pyromancy",
+            "psychicpowers_sanctic",
+            "psychicpowers_telekinesis",
+            "psychicpowers_telepathy"
+          ]
+        },
+        {
+          "name": "Range Weapons",
+          "sorting": "m",
+          "color": "#000000",
+          "packs": [
+            "rangeweapons_bolt",
+            "rangeweapons_exotic",
+            "rangeweapons_flame",
+            "rangeweapons_laser",
+            "rangeweapons_launcher",
+            "rangeweapons_low-tech",
+            "rangeweapons_melta",
+            "rangeweapons_plasma",
+            "rangeweapons_solid-projectile",
+            "rangeweapons_xeno"
+          ]
+        },
+        {
+          "name": "Special Abilities",
+          "sorting": "m",
+          "color": "#000000",
+          "packs": [
+            "specialabilities_background-bonus",
+            "specialabilities_home-world-bonus",
+            "specialabilities_role-bonus"
+          ]
+        },
+        {
+          "name": "Talents",
+          "sorting": "m",
+          "color": "#000000",
+          "packs": ["talents_tier_1", "talents_tier_2", "talents_tier_3"]
+        }
+      ]
+    }
+  ],
   "packs": [
     {
-      "name": "Ammunition_Explosives",
+      "name": "ammunition_explosives",
       "label": "Ammunition: Explosives",
       "system": "dark-heresy",
       "path": "./packs/Ammunition/explosives",
       "type": "Item"
     },
     {
-      "name": "Ammunition_Special",
+      "name": "ammunition_special",
       "label": "Ammunition: Special",
       "system": "dark-heresy",
       "path": "./packs/Ammunition/special",
       "type": "Item"
     },
     {
-      "name": "Ammunition_Standard",
+      "name": "ammunition_standard",
       "label": "Ammunition: Standard",
       "system": "dark-heresy",
       "path": "./packs/Ammunition/standard",
       "type": "Item"
     },
     {
-      "name": "Ammunition_Xeno",
+      "name": "ammunition_xeno",
       "label": "Ammunition: Xeno",
       "system": "dark-heresy",
       "path": "./packs/Ammunition/xeno",
       "type": "Item"
     },
     {
-      "name": "Aptitudes",
+      "name": "aptitudes",
       "label": "Aptitudes",
       "system": "dark-heresy",
       "path": "./packs/aptitudes",
       "type": "Item"
     },
     {
-      "name": "Armor_Basic",
+      "name": "armor_basic",
       "label": "Armor: Basic",
       "system": "dark-heresy",
       "path": "./packs/Armor/basic",
       "type": "Item"
     },
     {
-      "name": "Armor_Carapace",
+      "name": "armor_carapace",
       "label": "Armor: Carapace",
       "system": "dark-heresy",
       "path": "./packs/Armor/carapace",
       "type": "Item"
     },
     {
-      "name": "Armor_Flak",
+      "name": "armor_flak",
       "label": "Armor: Flak",
       "system": "dark-heresy",
       "path": "./packs/Armor/flak",
       "type": "Item"
     },
     {
-      "name": "Armor_Mesh",
+      "name": "armor_mesh",
       "label": "Armor: Mesh",
       "system": "dark-heresy",
       "path": "./packs/Armor/mesh",
       "type": "Item"
     },
     {
-      "name": "Armor_Power_Armor",
+      "name": "armor_power_armor",
       "label": "Armor: Power Armor",
       "system": "dark-heresy",
       "path": "./packs/Armor/power-armor",
       "type": "Item"
     },
     {
-      "name": "Cybernetics",
+      "name": "cybernetics",
       "label": "Cybernetics",
       "system": "dark-heresy",
       "path": "./packs/cybernetics",
       "type": "Item"
     },
     {
-      "name": "Drugsconsumables",
+      "name": "drugs_and_consumables",
       "label": "Drugs & Consumables",
       "system": "dark-heresy",
       "path": "./packs/drugs-and-consumables",
       "type": "Item"
     },
     {
-      "name": "Forcefields",
+      "name": "forcefields",
       "label": "Force Fields",
       "system": "dark-heresy",
       "path": "./packs/force-fields",
       "type": "Item"
     },
     {
-      "name": "Gear",
+      "name": "gear",
       "label": "Gear",
       "system": "dark-heresy",
       "path": "./packs/gear",
       "type": "Item"
     },
     {
-      "name": "MeeleWeapons_Chain",
+      "name": "meeleweapons_chain",
       "label": "Meele Weapons: Chain",
       "system": "dark-heresy",
       "path": "./packs/Meele/chain",
       "type": "Item"
     },
     {
-      "name": "MeeleWeapons_Flame",
+      "name": "meeleweapons_flame",
       "label": "Meele Weapons: Flame",
       "system": "dark-heresy",
       "path": "./packs/Meele/flame",
       "type": "Item"
     },
     {
-      "name": "MeeleWeapons_Force",
+      "name": "meeleweapons_force",
       "label": "Meele Weapons: Force",
       "system": "dark-heresy",
       "path": "./packs/Meele/force",
       "type": "Item"
     },
     {
-      "name": "MeeleWeapons_Low-Tech",
+      "name": "meeleweapons_low-tech",
       "label": "Meele Weapons: Low-Tech",
       "system": "dark-heresy",
       "path": "./packs/Meele/low-tech",
       "type": "Item"
     },
     {
-      "name": "MeeleWeapons_Power",
+      "name": "meeleweapons_power",
       "label": "Meele Weapons: Power",
       "system": "dark-heresy",
       "path": "./packs/Meele/power",
       "type": "Item"
     },
     {
-      "name": "MeeleWeapons_Shock",
+      "name": "meeleweapons_shock",
       "label": "Meele Weapons: Shock",
       "system": "dark-heresy",
       "path": "./packs/Meele/shock",
       "type": "Item"
     },
     {
-      "name": "MeeleWeapons_Xeno",
+      "name": "meeleweapons_xeno",
       "label": "Meele Weapons: Xeno",
       "system": "dark-heresy",
       "path": "./packs/Meele/xeno",
       "type": "Item"
     },
     {
-      "name": "PsychicPowers_Biomancy",
+      "name": "psychicpowers_biomancy",
       "label": "Psychic Powers: Biomancy",
       "system": "dark-heresy",
       "path": "./packs/PsychicPowers/biomancy",
       "type": "Item"
     },
     {
-      "name": "PsychicPowers_Divination",
+      "name": "psychicpowers_divination",
       "label": "Psychic Powers: Divination",
       "system": "dark-heresy",
       "path": "./packs/PsychicPowers/divination",
       "type": "Item"
     },
     {
-      "name": "PsychicPowers_Malefic",
+      "name": "psychicpowers_malefic",
       "label": "Psychic Powers: Malefic",
       "system": "dark-heresy",
       "path": "./packs/PsychicPowers/malefic",
       "type": "Item"
     },
     {
-      "name": "PsychicPowers_Minor",
+      "name": "psychicpowers_minor",
       "label": "Psychic Powers: Minor",
       "system": "dark-heresy",
       "path": "./packs/PsychicPowers/minor",
       "type": "Item"
     },
     {
-      "name": "PsychicPowers_Pyromancy",
+      "name": "psychicpowers_pyromancy",
       "label": "Psychic Powers: Pyromancy",
       "system": "dark-heresy",
       "path": "./packs/PsychicPowers/pyromancy",
       "type": "Item"
     },
     {
-      "name": "PsychicPowers_Sanctic",
+      "name": "psychicpowers_sanctic",
       "label": "Psychic Powers: Sanctic",
       "system": "dark-heresy",
       "path": "./packs/PsychicPowers/sanctic",
       "type": "Item"
     },
     {
-      "name": "PsychicPowers_Telekinesis",
+      "name": "psychicpowers_telekinesis",
       "label": "Psychic Powers: Telekinesis",
       "system": "dark-heresy",
       "path": "./packs/PsychicPowers/telekinesis",
       "type": "Item"
     },
     {
-      "name": "PsychicPowers_Telepathy",
+      "name": "psychicpowers_telepathy",
       "label": "Psychic Powers: Telepathy",
       "system": "dark-heresy",
       "path": "./packs/PsychicPowers/telepathy",
       "type": "Item"
     },
     {
-      "name": "RangeWeapons_Bolt",
+      "name": "rangeweapons_bolt",
       "label": "Range Weapons: Bolt",
       "system": "dark-heresy",
       "path": "./packs/Range/bolt",
       "type": "Item"
     },
     {
-      "name": "RangeWeapons_Exotic",
+      "name": "rangeweapons_exotic",
       "label": "Range Weapons: Exotic",
       "system": "dark-heresy",
       "path": "./packs/Range/exotic",
       "type": "Item"
     },
     {
-      "name": "RangeWeapons_Flame",
+      "name": "rangeweapons_flame",
       "label": "Range Weapons: Flame",
       "system": "dark-heresy",
       "path": "./packs/Range/flame",
       "type": "Item"
     },
     {
-      "name": "RangeWeapons_Laser",
+      "name": "rangeweapons_laser",
       "label": "Range Weapons: Laser",
       "system": "dark-heresy",
       "path": "./packs/Range/laser",
       "type": "Item"
     },
     {
-      "name": "RangeWeapons_Launcher",
+      "name": "rangeweapons_launcher",
       "label": "Range Weapons: Launcher",
       "system": "dark-heresy",
       "path": "./packs/Range/launcher",
       "type": "Item"
     },
     {
-      "name": "RangeWeapons_Low-Tech",
+      "name": "rangeweapons_low-tech",
       "label": "Range Weapons: Low-Tech",
       "system": "dark-heresy",
       "path": "./packs/Range/low-tech",
       "type": "Item"
     },
     {
-      "name": "RangeWeapons_Melta",
+      "name": "rangeweapons_melta",
       "label": "Range Weapons: Melta",
       "system": "dark-heresy",
       "path": "./packs/Range/melta",
       "type": "Item"
     },
     {
-      "name": "RangeWeapons_Plasma",
+      "name": "rangeweapons_plasma",
       "label": "Range Weapons: Plasma",
       "system": "dark-heresy",
       "path": "./packs/Range/plasma",
       "type": "Item"
     },
     {
-      "name": "RangeWeapons_Solid-Projectile",
+      "name": "rangeweapons_solid-projectile",
       "label": "Range Weapons: Solid-Projectile",
       "system": "dark-heresy",
       "path": "./packs/Range/solid-projectile",
       "type": "Item"
     },
     {
-      "name": "RangeWeapons_Xeno",
+      "name": "rangeweapons_xeno",
       "label": "Range Weapons: Xeno",
       "system": "dark-heresy",
       "path": "./packs/Range/xeno",
       "type": "Item"
     },
     {
-      "name": "SpecialAbilities_Background-Bonus",
+      "name": "specialabilities_background-bonus",
       "label": "Special Abilities: Background Bonus",
       "system": "dark-heresy",
       "path": "./packs/SpecialAbilities/background-bonus",
       "type": "Item"
     },
     {
-      "name": "SpecialAbilities_Home-World-Bonus",
+      "name": "specialabilities_home-world-bonus",
       "label": "Special Abilities: Home World Bonus",
       "system": "dark-heresy",
       "path": "./packs/SpecialAbilities/home-world-bonus",
       "type": "Item"
     },
     {
-      "name": "SpecialAbilities_Role-Bonus",
+      "name": "specialabilities_role-bonus",
       "label": "Special Abilities: Role Bonus",
       "system": "dark-heresy",
       "path": "./packs/SpecialAbilities/role-bonus",
       "type": "Item"
     },
     {
-      "name": "Talents_Tier_1",
+      "name": "talents_tier_1",
       "label": "Talents: Tier 1",
       "system": "dark-heresy",
       "path": "./packs/Talents/talents1",
       "type": "Item"
     },
     {
-      "name": "Talents_Tier_2",
+      "name": "talents_tier_2",
       "label": "Talents: Tier 2",
       "system": "dark-heresy",
       "path": "./packs/Talents/talents2",
       "type": "Item"
     },
     {
-      "name": "Talents_Tier_3",
+      "name": "talents_tier_3",
       "label": "Talents: Tier 3",
       "system": "dark-heresy",
       "path": "./packs/Talents/talents3",
       "type": "Item"
     },
     {
-      "name": "Tools",
+      "name": "tools",
       "label": "Tools",
       "system": "dark-heresy",
       "path": "./packs/tools",
       "type": "Item"
     },
     {
-      "name": "Traits",
+      "name": "traits",
       "label": "Traits",
       "system": "dark-heresy",
       "path": "./packs/traits",
       "type": "Item"
     },
     {
-      "name": "WeaponarmorModifications",
+      "name": "modifications",
       "label": "Weapon and Armor Modifications",
       "system": "dark-heresy",
       "path": "./packs/weapon-and-armor-modifications",
