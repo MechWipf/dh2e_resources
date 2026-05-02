@@ -2,10 +2,14 @@
   "id": "dh2e_resources",
   "title": "Dark Heresy 2nd Edition Resource Pack",
   "description": "750+ Items from 4 rulebooks and self created",
-  "author": "MechWipf (original by Nosferaschu)",
+  "authors": [
+    { "name": "Nosferaschu" },
+    { "name": "Apex" },
+    { "name": "MechWipf" }
+  ],
   "version": "0.8.2",
   "manifest": "https://raw.githubusercontent.com/MechWipf/dh2e_resources/main/module.json",
-  "download": "https://github.com/MechWipf/dh2e_resources/releases/latest/download/dh2e_resources.zip",
+  "download": "https://github.com/MechWipf/dh2e_resources/releases/latest/download/module.zip",
   "compatibility": {
     "minimum": "0.8.6",
     "verified": "12"
