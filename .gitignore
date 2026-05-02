@@ -1,1 +1,4 @@
-./dh2e_resources.zip
+build/
+packs/**/*.log
+packs/**/LOG
+packs/**/LOG.old
